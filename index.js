@@ -7,3 +7,5 @@ function wrapGifts(gifts) {
  
   return gifts;
 }
+
+writeCards(["Ada", "Brendan", "Ali"], "birthday");
