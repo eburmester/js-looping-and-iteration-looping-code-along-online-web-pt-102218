@@ -11,3 +11,13 @@ function wrapGifts(gifts) {
 }
 
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
+
+function plantGarden() {
+  let keepWorking = true;
+  while (keepWorking) {
+    chooseSeedLocation();
+    plantSeed();
+    waterSeed();
+    keepWorking = checkForMoreSeeds();
+  }
+}
